@@ -2,7 +2,7 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
-  base: '/hooks-and-components/',
+  publicPath: '/hooks-and-components/',
   // 用于 dumi dev 和 dumi build 时解析子包路径别名
   alias: {
     '@hooks/hooks': require.resolve('./packages/hooks/src'),
