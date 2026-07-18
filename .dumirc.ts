@@ -3,6 +3,7 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   outputPath: 'docs-dist',
   // - base — dumi 路由的基础路径，所有页面 URL 都会拼接此前缀（如 /hooks-and-components/hooks/use-debounce ）
+  base: '/hooks-and-components/',
   // - publicPath — 静态资源（JS/CSS/图片）的前缀路径，确保打包后的资源能从正确路径加载
   publicPath: '/hooks-and-components/',
   // 用于 dumi dev 和 dumi build 时解析子包路径别名
