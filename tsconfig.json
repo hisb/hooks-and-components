@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "@hooks/hooks": ["packages/hooks/src"],
+      "@hooks/hooks/*": ["packages/hooks/src/*"],
+      "@virtualizedLists": ["packages/virtualizedList/src"],
+      "@virtualizedLists/*": ["packages/virtualizedList/src/*"], 
+      "hooks": ["src"],
+      "hooks/*": ["src/*", "*"]
+    }
+  },
+  "include": [".dumirc.ts", ".fatherrc.ts", "src/**/*", "packages/**/src/**/*"]
+}
